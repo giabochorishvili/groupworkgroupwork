@@ -16,6 +16,7 @@ body{
     padding: 34px 0px;
     width: 100%;   /* კარგი პრაქტიკაა როდესაც სიმაღლეს და სიგანეს პიქსელებად არ დავწერთ */
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
     align-items: center;
@@ -79,24 +80,27 @@ body{
 /* first land */
 
 .mainConteiner{
-    width: 1512px;
-    height: 982px;
+    width: 100%;
+    min-height: 982px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .miniMainConteiner{
     display: flex;
     flex-direction: column;
     gap: 38px;
-    margin-left: 171px;
-    margin-top: 139px;
+    padding: 139px 0 0 171px;
 }
 
 .searchBar{
-    width: 568px;
-    height: 100px;
+    max-width: 568px;
+    height: auto;
+    padding: 30px 40px 30px 27px;
     border-radius: 63px;
     display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
     align-items: center;
     justify-content: flex-start;
     gap: 28px;
@@ -105,10 +109,6 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     font-size: 15px;
-}
-
-.firstimg{
-    margin-left: 27px;
 }
 
 .forSpan , .forSpan1 {
@@ -124,8 +124,9 @@ body{
 }
 
 #HH1{
-    width: 568px;
-    height: 200px;
+    max-width: 568px;
+    /* width: 568px; */
+    height: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 48px;
     font-weight: 700;
@@ -137,8 +138,10 @@ body{
 }
 
 #HH3{
-    height: 100px;
-    width: 568px;
+    height: auto;
+    /* height: 100px; */
+    max-width: 568px;
+    /* width: 568px; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -150,19 +153,23 @@ body{
 }
 
 .img1{
+
     height: 638px;
     width: 434px;
-    left: 900px;
-    top: 206px;
-    border-radius: [object Object]px;
-    position: absolute;
+    margin-left: 161px;
+    margin-top: 69px;
+    /* padding: 69px 0px 0px 161px; */
+    /* left: 900px; */
+    /* top: 206px; */
+    /* border-radius: [object Object]px; */
+    /* position: absolute; */
 }
 
 /* second land */
 
 .mainConteiner1{
     display: flex;
-    width: 1512px;
+    width: 100%;
     height: 982px;
 }
 
@@ -272,7 +279,7 @@ body{
 /* third land */
 
 .mainConteiner3{
-    width: 1512px;
+    width: 100%;
     height: 982px;
 }
 
