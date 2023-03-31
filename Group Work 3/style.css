@@ -153,7 +153,6 @@ body{
 }
 
 .img1{
-
     height: 638px;
     width: 434px;
     margin-left: 161px;
@@ -532,7 +531,7 @@ body{
 .miniMainConteiner7{
     display: flex;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 70px;
     flex-wrap: wrap;
 }
 
@@ -976,3 +975,148 @@ body{
 }
 
     
+@media screen and (max-width:767px) {
+    .headingSection a{
+        text-decoration: none;
+        height: auto;
+        width: auto;
+        padding: 10px 15px;
+    }
+
+    #A1{
+        font-size: 18px;
+    }  
+    
+    #A2 , #A3 , #A4 , #A5 , #A6 , #A7{
+        font-size: 18px;
+    }
+
+    #A8{    
+        font-size: 18px;
+    }
+
+    .mainConteiner{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .miniMainConteiner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    #HH1{
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #HH3{
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .searchBar{
+        padding: 15px 20px 15px 14px;
+        font-size: 12px;
+    }
+
+    .img1{
+        margin-left: 0px;
+        margin-top: 30px;
+        width: auto;
+        height: auto;
+    }
+
+    .mainConteiner1{
+        justify-content: center;
+    }
+
+    .img2{
+        margin-left: -250px;
+    }
+
+    .img3{
+        margin-left: -550px;
+        position: relative;
+    }
+
+
+    .mainConteiner2{
+        margin-left: 100px;
+    }
+
+    .mainConteiner3{
+        margin-left: -80px;
+    }
+    
+    .minidiv1{
+        margin-left: 0px;
+    }
+
+    .mainConteiner4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-height: 982px;
+        align-items: center;
+    }
+
+    .miniMainConteiner6{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .HH5{
+        font-size: 30px;
+    }
+
+    .P1{
+        font-size: 20px;
+    }
+
+    .HH7{
+        font-size: 30px;
+    }
+
+    .HH11{
+        font-size: 30px;
+    }
+
+    .HH16{
+        font-size: 30px;
+    }
+
+    .HH17{
+        font-size: 20px;
+    }
+
+    .footerdiv{
+        margin-left: 0px;
+    }
+
+    .mainfooter{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img6{
+        margin-right: 60px;
+    }
+
+    
+    
+    
+}
